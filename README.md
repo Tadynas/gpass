@@ -39,13 +39,13 @@ import '@tadynas/gpass/styles-min.css'
 />
 ```
 
-**1. images** - array of 4 images links that will be displayed for the user
-**2. email** - user provided email
-**3. password** - password that user will provide
-**4. disableButton** - disable button when waiting response from server
-**5. handleChangePassword** - updated password
-**6. handleSignUp** - user pressed 'Sign Up' button when available
-**7. error** - provide a message when server is not working or user password is incorrect
+1. **images** - array of 4 images links that will be displayed for the user
+2. **email** - user provided email
+3. **password** - password that user will provide
+4. **disableButton** - disable button when waiting response from server
+5. **handleChangePassword** - updated password
+6. **handleSignUp** - user pressed 'Sign Up' button when available
+7. **error** - provide a message when server is not working or user password is incorrect
 
 ## Login Password
 
@@ -61,11 +61,11 @@ import '@tadynas/gpass/styles-min.css'
 />
 ```
 
-**1. images** - array of 4 images links that will be displayed for the user
-**2. email** - user provided email
-**3. password** - password that user will provide
-**4. disableButton** - disable button when waiting response from server
-**5. handleChangePassword** - updated password
-**6. handleSignIn** - user pressed 'Sign In' button when available
-**7. error** - provide a message when server is not working or user password is incorrect
+1. **images** - array of 4 images links that will be displayed for the user
+2. **email** - user provided email
+3. **password** - password that user will provide
+4. **disableButton** - disable button when waiting response from server
+5. **handleChangePassword** - updated password
+6. **handleSignIn** - user pressed 'Sign In' button when available
+7. **error** - provide a message when server is not working or user password is incorrect
 
