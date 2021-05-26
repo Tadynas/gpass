@@ -1,8 +1,10 @@
-# gpass 🔑
+# gpass 🔑 
 
-> Graphical Password Authentication Security for Systems
+> Graphical Password Authentication System for Security
 
 ![Registration/Login Components](https://i.imgur.com/L8i2d3B.png)
+
+### Check Live Version [here](https://vigorous-blackwell-7bfba7.netlify.app/login)
 
 ## Features
 
@@ -39,13 +41,13 @@ import '@tadynas/gpass/styles-min.css'
 />
 ```
 
-1. **images** - array of 4 images links that will be displayed for the user
-2. **email** - user provided email
-3. **password** - password that user will provide
-4. **disableButton** - disable button when waiting response from server
-5. **handleChangePassword** - updated password
-6. **handleSignUp** - user pressed 'Sign Up' button when available
-7. **error** - provide a message when server is not working or user password is incorrect
+**1. images** - array of 4 images links that will be displayed for the user
+**2. email** - user provided email
+**3. password** - password that user will provide
+**4. disableButton** - disable button when waiting response from server
+**5. handleChangePassword** - updated password
+**6. handleSignUp** - user pressed 'Sign Up' button when available
+**7. error** - provide a message when server is not working or user password is incorrect
 
 ## Login Password
 
@@ -61,11 +63,11 @@ import '@tadynas/gpass/styles-min.css'
 />
 ```
 
-1. **images** - array of 4 images links that will be displayed for the user
-2. **email** - user provided email
-3. **password** - password that user will provide
-4. **disableButton** - disable button when waiting response from server
-5. **handleChangePassword** - updated password
-6. **handleSignIn** - user pressed 'Sign In' button when available
-7. **error** - provide a message when server is not working or user password is incorrect
+**1. images** - array of 4 images links that will be displayed for the user
+**2. email** - user provided email
+**3. password** - password that user will provide
+**4. disableButton** - disable button when waiting response from server
+**5. handleChangePassword** - updated password
+**6. handleSignIn** - user pressed 'Sign In' button when available
+**7. error** - provide a message when server is not working or user password is incorrect
 
