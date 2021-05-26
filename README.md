@@ -4,7 +4,7 @@
 
 ![Registration/Login Components](https://i.imgur.com/L8i2d3B.png)
 
-### Check Live Version [here](https://vigorous-blackwell-7bfba7.netlify.app/login)
+### Check Live Version [here](https://vigorous-blackwell-7bfba7.netlify.app)
 
 ## Features
 
