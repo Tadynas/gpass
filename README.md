@@ -75,3 +75,70 @@ import { LoginPass } from '@tadynas/gpass'
 6. **handleSignIn** - user pressed 'Sign In' button when available
 7. **error** - provide a message when server is not working or user password is incorrect
 
+## Example Code
+
+### Login Page
+
+```js
+import { useState } from 'react'
+
+import '@tadynas/gpass/styles-min.css'
+
+import { LoginPass } from '@tadynas/gpass'
+
+
+function App() {
+  const [email, setEmail] = useState('test@email.com')
+  const [password, setPassword] = useState('')
+  const [error, setError] = useState('')
+
+  return (
+    <LoginPass 
+      images={['https://tinyurl.com/ye9k9847', 
+              'https://tinyurl.com/yttpmuyt', 
+              'https://tinyurl.com/4nex98t3', 
+              'https://tinyurl.com/y6nd8jha']}
+      email={email}
+      password={password}
+      handleChangePassword={(updatedPassword) => setPassword(updatedPassword)}
+      handleSignIn={() => console.log('Sign In')}
+      error={error}
+    />
+  )
+}
+
+export default App
+```
+
+### Registration Page
+
+```js
+import { useState } from 'react'
+
+import '@tadynas/gpass/styles-min.css'
+
+import { RegistrationPass } from '@tadynas/gpass'
+
+
+function App() {
+  const [email, setEmail] = useState('test@email.com')
+  const [password, setPassword] = useState('')
+  const [error, setError] = useState('')
+
+  return (
+    <RegistrationPass 
+      images={['https://tinyurl.com/ye9k9847', 
+              'https://tinyurl.com/yttpmuyt', 
+              'https://tinyurl.com/4nex98t3', 
+              'https://tinyurl.com/y6nd8jha']}
+      email={email}
+      password={password}
+      handleChangePassword={(updatedPassword) => setPassword(updatedPassword)}
+      handleSignUp={() => console.log('Sign Up')}
+      error={error}
+    />
+  )
+}
+
+export default App
+```
