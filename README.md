@@ -15,11 +15,11 @@
 
 ## Install
 
-`npm install @tadynas/gpass --registry=https://npm.pkg.github.com/`
+`npm install @tadynas/gpass`
 
 or 
 
-`yarn add @tadynas/gpass --registry=https://npm.pkg.github.com/`
+`yarn add @tadynas/gpass`
 
 then add style sheet to the root of your project
 
@@ -30,6 +30,8 @@ import '@tadynas/gpass/styles-min.css'
 ## Registration Password
 
 ```js
+import { RegistrationPass } from '@tadynas/gpass'
+
 <RegistrationPass 
    images={images}
    email={email}
@@ -41,17 +43,19 @@ import '@tadynas/gpass/styles-min.css'
 />
 ```
 
-**1. images** - array of 4 images links that will be displayed for the user
-**2. email** - user provided email
-**3. password** - password that user will provide
-**4. disableButton** - disable button when waiting response from server
-**5. handleChangePassword** - updated password
-**6. handleSignUp** - user pressed 'Sign Up' button when available
-**7. error** - provide a message when server is not working or user password is incorrect
+1. **images** - array of 4 images links that will be displayed for the user
+2. **email** - user provided email
+3. **password** - password that user will provide
+4. **disableButton** - disable button when waiting response from server
+5. **handleChangePassword** - updated password
+6. **handleSignUp** - user pressed 'Sign Up' button when available
+7. **error** - provide a message when server is not working or user password is incorrect
 
 ## Login Password
 
 ```js
+import { LoginPass } from '@tadynas/gpass'
+
 <LoginPass 
    images={images}
    email={email}
@@ -63,11 +67,11 @@ import '@tadynas/gpass/styles-min.css'
 />
 ```
 
-**1. images** - array of 4 images links that will be displayed for the user
-**2. email** - user provided email
-**3. password** - password that user will provide
-**4. disableButton** - disable button when waiting response from server
-**5. handleChangePassword** - updated password
-**6. handleSignIn** - user pressed 'Sign In' button when available
-**7. error** - provide a message when server is not working or user password is incorrect
+1. **images** - array of 4 images links that will be displayed for the user
+2. **email** - user provided email
+3. **password** - password that user will provide
+4. **disableButton** - disable button when waiting response from server
+5. **handleChangePassword** - updated password
+6. **handleSignIn** - user pressed 'Sign In' button when available
+7. **error** - provide a message when server is not working or user password is incorrect
 
